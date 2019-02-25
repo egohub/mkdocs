@@ -1,0 +1,12 @@
+site_name: My Docs
+theme:
+  name: 'material'
+
+nav:
+    - Home: index.md
+    - Server:
+      - Express : server/server.md
+    - About: about.md
+
+extra :
+  manifest: 'manifest.webmanifest'
